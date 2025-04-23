@@ -1,0 +1,7 @@
+- name: Self-heal NGINX Docker container
+  hosts: localhost
+  tasks:
+    - name: Restart NGINX Docker container
+      become: yes
+      command: docker restart nginx
+
