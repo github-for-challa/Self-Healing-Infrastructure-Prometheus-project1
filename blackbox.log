@@ -1,0 +1,4 @@
+ts=2025-04-24T10:05:47.132Z caller=main.go:87 level=info msg="Starting blackbox_exporter" version="(version=0.25.0, branch=HEAD, revision=ef3ff4fef195333fb8ee0039fb487b2f5007908f)"
+ts=2025-04-24T10:05:47.132Z caller=main.go:88 level=info build_context="(go=go1.22.2, platform=linux/amd64, user=root@47d5b0d99f18, date=20240409-12:58:39, tags=unknown)"
+ts=2025-04-24T10:05:47.133Z caller=main.go:100 level=info msg="Loaded config file"
+ts=2025-04-24T10:05:47.135Z caller=main.go:274 level=error msg="Error starting HTTP server" err="listen tcp :9115: bind: address already in use"

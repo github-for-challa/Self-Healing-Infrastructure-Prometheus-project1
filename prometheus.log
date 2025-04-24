@@ -1,0 +1,1 @@
+ts=2025-04-24T10:05:47.215Z caller=main.go:521 level=error msg="Error loading config (--config.file=../../prometheus.yml)" file=/home/ubuntu/prometheus.yml err="open ../../prometheus.yml: no such file or directory"
